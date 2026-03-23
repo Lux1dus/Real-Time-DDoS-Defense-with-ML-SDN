@@ -1,22 +1,20 @@
 # 🛡️ DDoS Detection with SDN Floodlight + ML
 
-Hệ thống phát hiện và chặn tấn công DDoS theo thời gian thực bằng SDN Floodlight, Mininet và Machine Learning (CICIDS2017).
+Hệ thống phát hiện và chặn tấn công DDoS theo thời gian thực bằng SDN Floodlight, Mininet và Machine Learning (CICIDS2017 đã được xử lý cho phù hợp với hệ thống triển khai của đề tài) .
 
 ---
 
 ## 📚 Tổng quan hệ thống
 
 **Kiến trúc:**
-```
-Mininet (Traffic) → tcpdump (PCAP) → CICFlowMeter (CSV Features)
-→ ML Model (Prediction) → Floodlight Controller (Drop Policy) → Block Attack
-```
+
+![Tong quan quy trinh](./imgs/Tong quan quy trinh.png)
 
 **Mục tiêu:** Quan sát và chặn tấn công DDoS tự động thông qua mô hình ML realtime.
 
 ---
 
-## ✅ Yêu cầu trước chạy
+## ✅ Yêu cầu trước khi chạy
 
 ### Môi trường
 - **OS**: Ubuntu 22.04+ (khuyến nghị dùng VM)
