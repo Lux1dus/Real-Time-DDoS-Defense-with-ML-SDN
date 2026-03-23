@@ -36,7 +36,8 @@ Mininet (Traffic) → tcpdump (PCAP) → CICFlowMeter (CSV Features)
 ## 🚀 Hướng dẫn chạy
 
 **Thư mục làm việc:** `source/` - tất cả lệnh chạy từ đây
-
+### **PHASE 1: Setup & Baseline**
+---
 ### 1) ⚙️ Khởi động Floodlight Controller
 
 **Terminal 1:**
@@ -120,7 +121,7 @@ Kiểm tra Wireshark để thấy sự khác biệt rõ ràng.
 
 ---
 
-### 7️⃣ **PHASE 2: Realtime Detection & Blocking**
+### **PHASE 2: Realtime Detection & Blocking**
 
 Dừng DDoS ở h3 bằng `Ctrl+C`. Chuẩn bị **3 terminal mới** để chạy song song:
 
