@@ -8,7 +8,8 @@ Hệ thống phát hiện và chặn tấn công DDoS theo thời gian thực b�
 
 **Kiến trúc:**
 
-![Tong quan quy trinh](./imgs/Tong quan quy trinh.png)
+![Tong quan quy trinh](https://github.com/Lux1dus/Real-Time-DDoS-Defense-with-ML-SDN/blob/main/imgs/Tong%20quan%20quy%20trinh.png)
+
 
 **Mục tiêu:** Quan sát và chặn tấn công DDoS tự động thông qua mô hình ML realtime.
 
